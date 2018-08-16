@@ -102,7 +102,7 @@ WIN_COMBINATIONS = [
     if over?
       return winner 
     else
-    play
+    return "Cat's Game!"
     
   end
 end
