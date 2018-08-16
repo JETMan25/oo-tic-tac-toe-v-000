@@ -103,7 +103,7 @@ WIN_COMBINATIONS = [
     if won?
       return winner 
     else
-    print "Cat's Game!"
+    puts "Cat's Game!"
     
   end
 end
