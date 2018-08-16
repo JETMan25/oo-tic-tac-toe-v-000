@@ -102,12 +102,7 @@ WIN_COMBINATIONS = [
     if over?
       return winner 
     else
-    counter = 0 
-    # until counter == 9 
-    
-    # play
-    # counter += 1 
-    # end
+    play
     
   end
 end
