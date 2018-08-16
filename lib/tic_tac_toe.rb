@@ -101,7 +101,7 @@ WIN_COMBINATIONS = [
         turn
     end
     if won?
-      return winner 
+      puts "Congratulations #{winner}!" 
     else
     puts "Cat's Game!"
     
