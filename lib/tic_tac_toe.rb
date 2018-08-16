@@ -97,8 +97,9 @@ WIN_COMBINATIONS = [
   end
   
   def play
-   
-    turn
+    while !over?
+        turn
+      end
     if over?
       return winner 
     else
