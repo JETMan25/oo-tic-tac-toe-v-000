@@ -96,17 +96,17 @@ WIN_COMBINATIONS = [
   end
   end
   
-  def play
+  # def play
    
-    turn
-    if over?
-      return winner 
-    else
-    counter = 0 
-    until counter == 9 
-    play
-    counter += 1 
-    end
+  #   turn
+  #   if over?
+  #     return winner 
+  #   else
+  #   counter = 0 
+  #   until counter == 9 
+  #   play
+  #   counter += 1 
+  #   end
     
   end
 end
