@@ -5,6 +5,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 
-Tic
+TicTacToe.new
 
 play
