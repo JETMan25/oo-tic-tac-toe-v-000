@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 
 game = TicTacToe.new 
 
-game(
+game.play
