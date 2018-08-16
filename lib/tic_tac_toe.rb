@@ -99,8 +99,8 @@ WIN_COMBINATIONS = [
   def play
     while !over?
         turn
-      end
-    if over?
+    end
+    if won?
       return winner 
     else
     return "Cat's Game!"
