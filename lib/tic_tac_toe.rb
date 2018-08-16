@@ -103,10 +103,10 @@ WIN_COMBINATIONS = [
       return winner 
     else
     counter = 0 
-    until counter == 9 
-    play
-    counter += 1 
-    end
+    # until counter == 9 
+    # play
+    # counter += 1 
+    # end
     
   end
 end
